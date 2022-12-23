@@ -1,36 +1,20 @@
 import * as React from 'react'
 import {
     Box,
-    Container,
-    Image,
-    Heading
   } from '@chakra-ui/react'
-import portrait from '../images/william.jpg'
+import Sidebar from './Sidebar';
+import Content from './Content';
 
 function Home() {
     // main structure of website
     return (
-        <Container>
-            <Box>
-                Hello, I'm a Software Engineer based in Canada!
+        <Box>
+                <Sidebar />
+            <Box ml='10rem' h='100%'>
+                <Content />
             </Box>
-            <Box>
-                <Box>
-                    <Heading>
-                        William Wang
-                    </Heading>
-                    <p>Code Practitioner</p>
-                </Box>
 
-                <Box>
-                    <Box>
-                        <Image src={portrait} alt='William Wang'/>
-                    </Box>
-                </Box>
-            </Box>
-            
-
-        </Container>
+        </Box>
     )
 }
 export default Home;

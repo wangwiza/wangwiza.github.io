@@ -1,15 +1,15 @@
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import Home from './Home'
-import Footer from './Footer'
+import theme from '../lib/theme'
+
 
 
 function App() {
     // main structure of website
     return (
-        <ChakraProvider >
+        <ChakraProvider theme={theme}>
             <Home />
-            <Footer />
         </ChakraProvider>
     )
 }
