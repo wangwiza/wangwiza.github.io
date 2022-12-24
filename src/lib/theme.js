@@ -32,7 +32,7 @@ const components = {
 }
 
 const fonts = {
-    heading: "''"
+    heading: "'Montserrat', sans serif"
 }
 
 const colors = {

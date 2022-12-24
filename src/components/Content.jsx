@@ -5,7 +5,6 @@ import {
     Image,
     Heading,
     Text,
-    chakra
 } from '@chakra-ui/react'
 import portrait from '../images/william.jpg'
 import Section from './Section'
@@ -22,32 +21,32 @@ function Content() {
                 <ThemeToggleButton />
             </Box>
             <Section>
-                <Box>
-                    <Box>
+                <Box
+                    h='100vh'
+                    
+                >
 
-                    </Box>
                     <Box>
                         <Heading>
-                            Hello, I'm William Wang.
+                            Hello,<br/>
+                            I'm William Wang,<br/>
+                            a Software Engineer based in Canada.
                         </Heading>
-
-                        <p>Code Practitioner</p>
                     </Box>
                 </Box>
             </Section>
             <Section>
-                <Heading>
+                <Heading variant='section-title'>
                     About
                 </Heading>
                 <Text>
                     awd
+                </Text>
                     <Image
                         src={portrait} 
                         alt='William Wang'
                         borderRadius='full'
-
                     />
-                </Text>
             </Section>
 
             <Section>
