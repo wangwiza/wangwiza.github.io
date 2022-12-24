@@ -4,7 +4,8 @@ import {
     Container,
     Image,
     Heading,
-    Text
+    Text,
+    chakra
 } from '@chakra-ui/react'
 import portrait from '../images/william.jpg'
 import Section from './Section'
@@ -23,12 +24,13 @@ function Content() {
             <Section>
                 <Box>
                     <Box>
-                        Hello, I'm a Software Engineer based in Canada!
+
                     </Box>
                     <Box>
                         <Heading>
-                            William Wang
+                            Hello, I'm William Wang.
                         </Heading>
+
                         <p>Code Practitioner</p>
                     </Box>
                 </Box>
@@ -39,7 +41,12 @@ function Content() {
                 </Heading>
                 <Text>
                     awd
-                    <Image src={portrait} alt='William Wang' />
+                    <Image
+                        src={portrait} 
+                        alt='William Wang'
+                        borderRadius='full'
+
+                    />
                 </Text>
             </Section>
 
