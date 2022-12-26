@@ -45,7 +45,7 @@ function Content() {
                     About
                 </Heading>
                 <HStack
-                    mb={100}
+                    mb={200}
                 >
                     <Paragraph>
                         Hello! I'm William. I'm a software engineer based in Montreal with
@@ -80,7 +80,7 @@ function Content() {
                 <Heading variant='section-title'>
                     Experience
                 </Heading>
-                <HStack>
+                <HStack mb={200}>
                     <Paragraph>
                         I'm continuously developing my skills through personal projects.
                         Whenever I have an idea, I research the technologies I need to

@@ -18,8 +18,6 @@ import{
     SiReact,
     SiPostgresql,
     SiMysql,
-    SiHtml5,
-    SiCss3,
     SiArduino,
 } from 'react-icons/si'
 
@@ -31,27 +29,25 @@ function SkillLib(){
             <HStack w='full' justifyContent='space-between'>
                 <Text>Languages:</Text>
                 <HStack>
-                    <Icon as={IoLogoPython} boxSize={7}/>
-                    <Icon as={IoLogoJavascript} boxSize={7}/>
-                    <Icon as={SiHtml5} boxSize={7}/>
-                    <Icon as={SiCss3} boxSize={7}/>
-                    <Icon as={SiCplusplus} boxSize={7}/>
+                    <Icon as={IoLogoPython} boxSize={10}/>
+                    <Icon as={IoLogoJavascript} boxSize={10}/>
+                    <Icon as={SiCplusplus} boxSize={10}/>
                 </HStack>
             </HStack>
             <HStack w='full' justifyContent='space-between'>
                 <Text>Framework/Lib:</Text>
                 <HStack>
-                    <Icon as={SiFlask} boxSize={7}/>
-                    <Icon as={SiBootstrap} boxSize={7}/>
-                    <Icon as={SiReact} boxSize={7}/>
+                    <Icon as={SiFlask} boxSize={10}/>
+                    <Icon as={SiBootstrap} boxSize={10}/>
+                    <Icon as={SiReact} boxSize={10}/>
                 </HStack>
             </HStack>
             <HStack w='full' justifyContent='space-between'>
                 <Text>Other:</Text>
                 <HStack>
-                    <Icon as={SiPostgresql} boxSize={7}/>
-                    <Icon as={SiMysql} boxSize={7}/>
-                    <Icon as={SiArduino} boxSize={7}/>
+                    <Icon as={SiPostgresql} boxSize={10}/>
+                    <Icon as={SiMysql} boxSize={10}/>
+                    <Icon as={SiArduino} boxSize={10}/>
                 </HStack>
             </HStack>
 
