@@ -6,13 +6,14 @@ import {
     Heading,
     Text,
     HStack,
-    Grid,
-    GridItem,
+    Flex,
 } from '@chakra-ui/react'
 import portrait from '../images/william2.jpg'
 import Section from './Section'
 import ThemeToggleButton from './ThemeToggleButton'
 import Paragraph from './Paragraph'
+import SkillLib from './SkillLib'
+
 
 function Content() {
     // main structure of website
@@ -43,7 +44,9 @@ function Content() {
                 <Heading variant='section-title'>
                     About
                 </Heading>
-                <HStack>
+                <HStack
+                    mb={100}
+                >
                     <Paragraph>
                         Hello! I'm William. I'm a software engineer based in Montreal with
                         a passion for art and technology. Through building 3D animations using Python 
@@ -79,26 +82,22 @@ function Content() {
                 </Heading>
                 <HStack>
                     <Paragraph>
-                        My first 
+                        I'm continuously developing my skills through personal projects.
+                        Whenever I have an idea, I research the technologies I need to
+                        create the product I have in mind. Through this simple method,
+                        I've acquired a diverse set of skills along the way.
+                        <br/><br/>
+                        I have participated in hackathons as well to supplement my learnings.
+                        At NP Compete, I dabbled into competitive programming and algorithm
+                        efficiency. At CodeJam, my teammates and I, tackled mobile app dev.
+                        <br /><br />
+                        My journey as a developer is far from meeting its destination, if
+                        there is even one. All I know is that with every experience point
+                        I get, I've climbed to a higher place than yesterday.
                     </Paragraph>
-                    <Grid
-                        templateRows='repeat(5, 1fr)'
-                        templateColumns='repeat(6, 1fr)'
-                        gap={4}
-                    >
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                        <GridItem>what</GridItem>
-                    </Grid>
+                    <Flex w='50%' justifyContent='center'>
+                        <SkillLib/>
+                    </Flex>
                 </HStack>
             </Section>
 
