@@ -9,6 +9,7 @@ function LinkItem({href, path, target, children, ...props}){
             color={useColorModeValue('gray200', 'whiteAlpha.900')}
             target={target}
             {...props}
+            href={href}
         >
             {children}
         </Link>
