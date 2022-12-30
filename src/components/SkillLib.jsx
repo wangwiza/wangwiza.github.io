@@ -1,11 +1,9 @@
 import * as React from 'react'
 import { 
-    Box,
     HStack,
     VStack,
     Text,
     Icon,
-
 } from '@chakra-ui/react'
 import {
     IoLogoJavascript,
