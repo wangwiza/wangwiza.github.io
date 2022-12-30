@@ -9,7 +9,6 @@ import {
     HStack,
     Icon,
     VStack,
-    Link
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import LinkItem from "./LinkItem";
