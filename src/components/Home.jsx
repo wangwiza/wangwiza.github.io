@@ -9,7 +9,7 @@ function Home() {
     // main structure of website
     return (
         <Box>
-                <Sidebar />
+            <Sidebar />
             <Box ml='10rem' h='100%'>
                 <Content />
             </Box>

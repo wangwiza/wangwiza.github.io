@@ -4,7 +4,6 @@ import {
     Container,
     Image,
     Heading,
-    Text,
     HStack,
     Flex,
 } from '@chakra-ui/react'
@@ -14,6 +13,7 @@ import ThemeToggleButton from './ThemeToggleButton'
 import Paragraph from './Paragraph'
 import SkillLib from './SkillLib'
 import Works from './Works'
+import Contact from './Contact'
 
 
 function Content() {
@@ -22,7 +22,7 @@ function Content() {
         <Container
             maxWidth='100vw'
         >
-            <Box position='fixed' right='10px' top='10px'>
+            <Box position='fixed' right='10px' top='10px' zIndex={2}>
                 <ThemeToggleButton />
             </Box>
             {/* Title */}
@@ -61,9 +61,8 @@ function Content() {
                         (McGill Chinese Student Society) as a First Year Rep, and will soon be the 
                         webmaster. I will be joining GDM (Game Dev McGill) too in Winter 2023.
                         <br /><br/>
-                        Currently, I'm working on my WebDev skills
-                        so I can present my projects beautifully. After that, I'll start my data science
-                        Python project involving music.
+                        When I'm not in front of my computer, I'm most likely playing volleyball with
+                        friends, or walking outside whilst listening to music/podcasts.
                     </Paragraph>
                     <Box
                         w='50%'
@@ -123,14 +122,15 @@ function Content() {
                     <Works/>
                 </Box>
             </Section>
+
             {/* Contact Section */}
             <Section>
-                <Heading variant='section-title'>
-                    Contact
-                </Heading>
-                <Text>
-                    awd
-                </Text>
+                <Box h='90vh'>
+                    <Heading variant='section-title'>
+                        Contact
+                    </Heading>
+                    <Contact/>
+                </Box>
             </Section>
 
 
