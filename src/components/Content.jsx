@@ -91,9 +91,10 @@ function Content() {
                         At NP Compete, I dabbled into competitive programming and algorithm
                         efficiency. At CodeJam, my teammates and I, tackled mobile app dev.
                         <br /><br />
-                        My journey as a developer is far from meeting its destination, if
-                        there is even one. All I know is that with every experience point
-                        I get, I've climbed to a higher place than yesterday.
+                        My journey as a developer is far from being over. I still have many
+                        regions to explore and bosses to defeat. But for now, I'll keep
+                        collecting as many experience points as I can to prepare myself for
+                        the future.
                     </Paragraph>
                     <Flex w='50%' justifyContent='center'>
                         <SkillLib/>
