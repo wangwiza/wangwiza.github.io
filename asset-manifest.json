@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.87216440.js",
+    "main.js": "/static/js/main.866557a6.js",
+    "static/media/csssite.png": "/static/media/csssite.20feb054e9d930f03023.png",
+    "static/media/arduino.png": "/static/media/arduino.f2f33ad29abb5d8e0820.png",
+    "static/media/bookCrud.png": "/static/media/bookCrud.ac9b1e4f855a5fb58c0a.png",
     "static/media/william2.jpg": "/static/media/william2.447a06402e1fdb6f456e.jpg",
+    "static/media/modphy.png": "/static/media/modphy.be23cc3de92c15317328.png",
     "index.html": "/index.html",
-    "main.87216440.js.map": "/static/js/main.87216440.js.map"
+    "main.866557a6.js.map": "/static/js/main.866557a6.js.map"
   },
   "entrypoints": [
-    "static/js/main.87216440.js"
+    "static/js/main.866557a6.js"
   ]
 }
