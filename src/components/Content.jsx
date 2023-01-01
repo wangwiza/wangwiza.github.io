@@ -31,6 +31,7 @@ function Content() {
                     h='100vh'
                     alignItems='center'
                     display='flex'
+                    id='title-section'
                 >
 
                     <Box>
@@ -46,6 +47,7 @@ function Content() {
             <Section>
                 <Box
                     mb={150}
+                    id='about-section'
                 >
                 <Heading variant='section-title'>
                     About
@@ -84,6 +86,7 @@ function Content() {
             <Section>
                 <Box 
                     mb={150}
+                    id='exp-section'
                 >
                     <Heading variant='section-title'>
                         Experience
@@ -115,7 +118,7 @@ function Content() {
 
             {/* Work Section */}
             <Section>
-                <Box mb={150}>
+                <Box mb={150} id='works-section'>
                     <Heading variant='section-title'>
                         Works
                     </Heading>
@@ -125,7 +128,7 @@ function Content() {
 
             {/* Contact Section */}
             <Section>
-                <Box h='90vh'>
+                <Box h='90vh' id='contact-section'>
                     <Heading variant='section-title'>
                         Contact
                     </Heading>

@@ -3,15 +3,17 @@ import {
     Box,
     Flex,
     Stack,
-    Heading,
     Container,
     useColorModeValue,
     HStack,
     Icon,
     VStack,
+    Image,
+    Link
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import LinkItem from "./LinkItem";
+import LinkItem from "./LinkItem"
+import logo from "../images/logo.png"
 
 function Sidebar() {
     return (
@@ -20,17 +22,16 @@ function Sidebar() {
             h='100%'
             w='8rem'
             zIndex={2}
-            bg={useColorModeValue('#ffffff40', '#100c08')}
+            bg={useColorModeValue('#f8f3ed', '#100c08')}
         >
             {/* Sidebar Logo Top Left */}
             <Container h='full'>
                 <VStack h='full' spacing='300px'>
                     {/* Personal Logo */}
-                    <Flex
-                    >
-                        <Heading>
-                            WW
-                        </Heading>
+                    <Flex>
+                        <Link href='#title-section'>
+                            <Image src={logo} alt='William Logo' />
+                        </Link>
                     </Flex>
                     {/* Navigation Links */}
                     <Stack 
@@ -38,10 +39,10 @@ function Sidebar() {
                         spacing='10px'
                         border
                     >
-                        <LinkItem>About</LinkItem>
-                        <LinkItem>Experience</LinkItem>
-                        <LinkItem>Works</LinkItem>
-                        <LinkItem>Contact</LinkItem>
+                        <LinkItem href='#about-section'>About</LinkItem>
+                        <LinkItem href='#exp-section'>Experience</LinkItem>
+                        <LinkItem href='#works-section'>Works</LinkItem>
+                        <LinkItem href='#contact-section'>Contact</LinkItem>
                     </Stack>
                     {/* Social Links */}
                     <HStack>
