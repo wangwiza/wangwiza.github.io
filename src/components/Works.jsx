@@ -34,7 +34,7 @@ function Works(){
                 Testing Flask and MySQL.
             </WorkItem>
             <WorkItem
-                href="https://github.com/wangwiza/book-list-crud"
+                href="https://wangwiza.github.io/css-mysite/"
                 title="CSS Portfolio"
                 thumbnail={cssSite}
             >
