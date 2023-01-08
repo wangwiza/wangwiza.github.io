@@ -16,5 +16,9 @@ const config = {
     useSystemColorMode: true
 }
 
-const theme = extendTheme({ config, styles })
+const fonts = {
+    heading: "'Montserrat'"
+}
+
+const theme = extendTheme({ config, styles, fonts })
 export default theme

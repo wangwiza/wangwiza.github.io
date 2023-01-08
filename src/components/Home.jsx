@@ -10,10 +10,9 @@ function Home() {
     return (
         <Box>
             <Sidebar />
-            <Box ml='10rem' h='100%'>
+            <Box ml='10rem'>
                 <Content />
             </Box>
-
         </Box>
     )
 }
