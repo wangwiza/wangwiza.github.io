@@ -17,7 +17,7 @@ const config = {
 }
 
 const fonts = {
-    heading: "'Montserrat'"
+    heading: "'Questrial'"
 }
 
 const theme = extendTheme({ config, styles, fonts })

@@ -33,14 +33,11 @@ function Content() {
                     display='flex'
                     id='title-section'
                 >
-
-                    <Box>
-                        <Heading>
+                        <Heading fontSize='3vw'>
                             Hello,<br/>
                             I'm William Wang,<br/>
                             a Software Engineer based in Canada.
                         </Heading>
-                    </Box>
                 </Box>
             </Section>
             {/* About Section */}
