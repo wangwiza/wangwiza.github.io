@@ -6,6 +6,8 @@ import {
     Heading,
     HStack,
     Flex,
+    Link,
+    Stack,
 } from '@chakra-ui/react'
 import portrait from '../images/william2.jpg'
 import Section from './Section'
@@ -33,10 +35,8 @@ function Content() {
                     display='flex'
                     id='title-section'
                 >
-                        <Heading fontSize='3vw'>
-                            Hello,<br/>
-                            I'm William Wang,<br/>
-                            a Software Engineer based in Canada.
+                        <Heading fontSize='6vw'>
+                        Will is working on his <Link href='https://github.com/wangwiza/wangwiza.github.io' isExternal>Portfolio</Link>
                         </Heading>
                 </Box>
             </Section>
@@ -49,7 +49,7 @@ function Content() {
                 <Heading variant='section-title'>
                     About
                 </Heading>
-                <HStack>
+                <Stack direction={{md:'row',xl:'column'}}>
                     <Paragraph>
                         Hello! I'm William. I'm a software engineer based in Montreal with
                         a passion for art and technology. Through building 3D animations using Python 
@@ -73,9 +73,10 @@ function Content() {
                             alt='William Wang'
                             borderRadius='full'
                             h='full'
+                            
                         />
                     </Box>
-                </HStack>
+                </Stack>
                 </Box>
             </Section>
 
