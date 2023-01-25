@@ -10,6 +10,37 @@ const styles = {
     })
 }
 
+const components = {
+    Heading: {
+        baseStyle: {
+            fontWeight: 'normal'
+        },
+        variants: {
+            'page-title': {
+                
+            },
+            'section-title': {
+                
+            }
+        }
+    },
+    Link: {
+        variants: {
+            'title-link': {
+                textDecoration: 'underline',
+                textUnderlineOffset: '20%',
+                textDecorationThickness: '5%',
+                '&:hover': {
+                    textDecoration: 'underline',
+                    textUnderlineOffset: '20%',
+                    textDecorationThickness: '5%',
+                    color: 'gray'
+                }
+            }
+        }
+    }
+}
+
 const config = {
     // Default bg color mode
     initialColorMode: 'dark',
@@ -17,8 +48,8 @@ const config = {
 }
 
 const fonts = {
-    heading: "'Questrial'"
+    heading: "'Noto Sans', sans-serif"
 }
 
-const theme = extendTheme({ config, styles, fonts })
+const theme = extendTheme({ config, styles, fonts, components })
 export default theme

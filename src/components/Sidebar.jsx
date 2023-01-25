@@ -12,7 +12,6 @@ import {
     Link
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import LinkItem from "./LinkItem"
 import logo from "../images/logo.png"
 
 function Sidebar() {
@@ -39,19 +38,19 @@ function Sidebar() {
                         spacing='10px'
                         border
                     >
-                        <LinkItem href='#about-section'>About</LinkItem>
-                        <LinkItem href='#exp-section'>Experience</LinkItem>
-                        <LinkItem href='#works-section'>Works</LinkItem>
-                        <LinkItem href='#contact-section'>Contact</LinkItem>
+                        <Link href='#about-section'>About</Link>
+                        <Link href='#exp-section'>Experience</Link>
+                        <Link href='#works-section'>Works</Link>
+                        <Link href='#contact-section'>Contact</Link>
                     </Stack>
                     {/* Social Links */}
                     <HStack>
-                        <LinkItem href='https://github.com/wangwiza' isExternal>
+                        <Link href='https://github.com/wangwiza' isExternal>
                             <Icon as={FaGithub} boxSize={6}/>                    
-                        </LinkItem>
-                        <LinkItem href='https://www.linkedin.com/in/willzawang/' isExternal>
+                        </Link>
+                        <Link href='https://www.linkedin.com/in/willzawang/' isExternal>
                             <Icon as={FaLinkedin} boxSize={6} />                    
-                        </LinkItem>
+                        </Link>
                     </HStack>
                 </VStack>
             </Container>

@@ -35,8 +35,8 @@ function Content() {
                     display='flex'
                     id='title-section'
                 >
-                        <Heading fontSize='6vw'>
-                        Will is working on his <Link href='https://github.com/wangwiza/wangwiza.github.io' isExternal>Portfolio</Link>
+                        <Heading variant='page-title' fontSize='6vw'>
+                        Wull is making his <Link variant='title-link' href='https://github.com/wangwiza/wangwiza.github.io' isExternal>Portfolio</Link>.
                         </Heading>
                 </Box>
             </Section>
