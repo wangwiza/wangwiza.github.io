@@ -36,7 +36,7 @@ function Content() {
                     id='title-section'
                 >
                         <Heading variant='page-title' fontSize='6vw'>
-                        Wull is making his <Link variant='title-link' href='https://github.com/wangwiza/wangwiza.github.io' isExternal>Portfolio</Link>.
+                        Will is making his <Link variant='title-link' href='https://github.com/wangwiza/wangwiza.github.io' isExternal>Portfolio</Link>.
                         </Heading>
                 </Box>
             </Section>
